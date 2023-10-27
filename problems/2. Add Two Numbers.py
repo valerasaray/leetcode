@@ -23,7 +23,6 @@ l23 = ListNode(1, None)
 l22 = ListNode(1, l23)
 l21 = ListNode(1, l22)
 
-
 class Solution:
     def listToNumber(self, l: Optional[ListNode]):
         result = ''
@@ -38,7 +37,7 @@ class Solution:
             l3 = ListNode(int(i), l3)
         return l3
 
-#вывод начальног элемента итогового списка
+#вывод начального элемента итогового списка
 s = Solution()
 print(s.addTwoNumbers(l11, l21).val)
 
